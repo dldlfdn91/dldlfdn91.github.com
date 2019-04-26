@@ -1,0 +1,39 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: table;
+    margin: 0 auto;
+
+    background-color: black;
+    font-family: "맑은고딕";
+}
+
+.container {
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#main {
+    width: 800px;
+    height: 300px;
+    border-color: white;
+    border-style: ridge;
+    border-width: 10px;
+}
+
+#calender {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+#clock {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    letter-spacing: 10px;
+}
